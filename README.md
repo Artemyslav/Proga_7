@@ -2,3 +2,8 @@
 
 python gen_data.py -variant 32 -seed 20070630 -output data.csv -rows [str]
 \\str- кол-во строчек, которое будет в генерируемом файле
+
+-------
+
+Для запуска программы в одной папке должен быть data.csv и dashboard.py:
+python dashboard.py 
